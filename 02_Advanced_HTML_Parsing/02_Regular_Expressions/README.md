@@ -69,7 +69,7 @@ Hay varios tipos diferentes de patrones que podemos describir con **REGEX**:
     - El **.** coincide con cualquier caracter individual. Para coincidir con **.** en especifico usamos **\.**
 
 - Podemos crear nuestro propios conjuntos de caracteres unicos usando **[]** para encerrar los elementos en el grupo. tendremos algo como esto.
-    ```python
+    ```python3
     (?P<nombre>\w+)\s*[=:]\s*(?P<valor>.*)
     ```
     - Lo podemos usar para parsear cadenas como estas -> "size = 12" , "weight : 14".
